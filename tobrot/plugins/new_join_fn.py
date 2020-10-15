@@ -38,7 +38,7 @@ async def help_message_f(client, message):
     #message_id = 99
     # display the /help
     
-    await message.reply_text("""**Hi sir !!**\n`This is URL Uploader Bot !!`\n\n**Send** `/help` **to see all the commands.\n**""", disable_web_page_preview=True)
+    await message.reply_text("""**Hi sir !!**\n`This is URL Uploader Bot !!`\n\n**Send** `#help` **to see all the commands.\n**""", disable_web_page_preview=True)
 
 
 async def rename_message_f(client, message):
