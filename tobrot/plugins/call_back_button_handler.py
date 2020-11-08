@@ -70,6 +70,6 @@ async def button(bot, update: CallbackQuery):
                     await update.message.edit_text("Nothing to clear 🙄")
             else:
                 await update.message.edit_text("You are not allowed to do that 🤭")
-        elif cb_data == "fuckoff":
-            await update.message.edit_text("Okay! fine 🤬")
+        elif cb_data == "Go Away":
+            await update.message.edit_text("Okay! fine 👍")
 				
