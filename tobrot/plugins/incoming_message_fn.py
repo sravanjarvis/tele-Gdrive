@@ -32,6 +32,9 @@ from tobrot.helper_funcs.admin_check import AdminCheck
 from tobrot.helper_funcs.ytplaylist import yt_playlist_downg
 from tobrot.helper_funcs.cloneHelper import CloneHelper
 
+import pyrogram
+from pyrogram.errors import UserNotParticipant, UserBannedInChannel
+
 async def incoming_purge_message_f(client, message):
     """/purge command"""
     i_m_sefg2 = await message.reply_text("Purging...", quote=True)
