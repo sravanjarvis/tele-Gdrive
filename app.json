@@ -99,10 +99,6 @@
       "description": "Enter your custom getsize command like getsize@urgroupname and so on. Default is /getsize.",
       "required": false
     },
-    "RCLONE_CONFIG": {
-      "description": "Enter your copied text from rclone config. Compulsory for /gleech as well as /tleech command ",
-      "required": false
-    },
     "DESTINATION_FOLDER": {
       "description": "Enter your Cloud folder NAME(not ID😅) in which you want to upload/store your files.",
       "required": false
